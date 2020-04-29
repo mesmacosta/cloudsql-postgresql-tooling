@@ -2,14 +2,13 @@
 
 Scripts with the goal to enable easy usage of some PostgreSQL operations.
 
-## INIT DATABASE
+## INIT database
 Execute
 ```bash
 ./init-db.sh
 ```
 
-## CREATE METADATA
-### Creating Schemas and Tables in PostgreSQL
+## Creating Schemas and Tables in PostgreSQL
 Execute
 ```bash
 ./connect-db.sh
@@ -21,14 +20,12 @@ CREATE TABLE MY_SCHEMA.MY_TABLE (name INT, address TEXT);
 exit
 ```
 
-## CLEAN UP DB
-### Clean up PostgreSQL Schemas and Tables
+## Clean up PostgreSQL Schemas and Tables
 ```bash
 ./cleanup-db.sh
 ```
 
-## DELETE DB
-### Delete the PostgreSQL database
+## Delete the PostgreSQL database
 ```bash
 ./delete-db.sh
 ```
