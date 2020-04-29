@@ -3,13 +3,11 @@
 Scripts with the goal to enable easy usage of some PostgreSQL operations.
 
 ## INIT database
-Execute
 ```bash
 ./init-db.sh
 ```
 
 ## Creating Schemas and Tables in PostgreSQL
-Execute
 ```bash
 ./connect-db.sh
 ```
