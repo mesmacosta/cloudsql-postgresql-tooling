@@ -1,4 +1,4 @@
-# docker build -t postgresql-db-cleaner .
+# docker build -t postgresql-metadata-generator .
 FROM python:3.7
 
 WORKDIR /lib
