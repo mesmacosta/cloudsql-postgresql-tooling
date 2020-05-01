@@ -56,7 +56,7 @@ echo -e "\033[1;42m [STEP 3] POPULATE DATABASE \033[0m"
 
 # Generate Metadata
 docker run --rm --tty \
-#ADD DOCKER IMAGE:stable  \
+mesmacosta/postgresql-metadata-generator:stable  \
 --postgresql-host=$public_ip_address \
 --postgresql-user=$username \
 --postgresql-pass=$password \

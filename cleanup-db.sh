@@ -14,7 +14,7 @@ password=${password//\"/}
 database=${database//\"/}
 
 docker run --rm --tty -v \
-"$PWD":/data #ADD DOCKER IMAGE:stable \
+"$PWD":/data mesmacosta/postgresql-db-cleaner:stable \
 --postgresql-host $public_ip_address \
 --postgresql-user $username \
 --postgresql-pass $password \
